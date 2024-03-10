@@ -1,0 +1,97 @@
+Leonardo Puebla
+FullStack Developer
+
+Luján de Cuyo Mendoza
++542612589352
+leonardo38361@gmail.com
+WWW: https://www.linkedin.com/in/leonardo-puebla-1a2b71229/
+WWW: leonardopuebla.netlify.app
+
+Professional Summary
+
+I am actively pursuing opportunities as a programmer to leverage my skills in web development and programming. I am dedicated to continuous learning and committed to adding value through my experience and passion for coding.
+
+Work History
+
+January 2024 - Current
+Westnet - Argentina, Mendoza.
+Fullstack Developer
+Responsible for maintaining and updating the company's application, I oversee the transition from Next 13 to Next 14, migrating the codebase and updating endpoints to utilize the API route. Additionally, I implement Docker from a Linux distribution, such as Ubuntu, for seamless deployment.
+
+January 2022 - October 2022
+Angular 12
+Proyect Latinad
+Advertising for the Qatar World Cup (using the football API), consisting of 3 panels: points table, upcoming matches, and match score. Together, we utilized Trello, an organizational tool, to efficiently manage and coordinate our tasks, ensuring smooth workflow and effective collaboration
+
+Skills
+
+Empatía
+
+Pensamiento crítico
+
+Computer Skills
+
+Courses Or Career
+
+React PRO.
+SQL from scratch.
+Angular.
+Next and Node.
+DevTalles & Udemy.
+Web Development School, Platzi.
+Superior Programming Technician Degree (UTN 08/2019 to 12/2020)
+111ThousandProgrammers, Government of Argentina (1/12/2016 to 12/12/2017)
+
+Platz Certificates
+
+Curso Profesional de Git y GitHub
+Others certificates (JavasCript, css and react)
+
+Check it in then next link:
+
+https://platzi.com/p/leonardorock/
+
+Programacion Web Backend
+
+Git/Github
+HTML/CSS
+Ionic (Angular)
+Material UI (React)
+Bootstrap
+JavaScript/EcmaScript
+Node
+Package Manager (Node y Yarn)
+REACT
+ANGULAR
+Redux
+Postman (pruebas de APIS)
+Webpack (Babel/Eslint/Prettier)
+Vite
+Deploy (Netlify, GitHub Pages, Firebase y Vercel)
+Base de datos (Maria DB, SQL, MYSQL, PostgresSQL, FireStore y MongoDB)
+Content Managment System (Strapi)
+Docker
+XAMPP
+PATRÓN DE DISEÑO (SOLID)
+PHP y Java
+Ubuntu (Shell bash)
+
+Personal Information
+
+Date of Birth: 06/22/94
+
+Education
+
+03/2025
+Ies Manuel Belgrano 9-008 Argentina, Mendoza, Godoy Cruz
+Technical Degree in Software Development Software Development
+
+Additional Information
+
+I am currently pursuing a degree at IES Manuel Belgrano primarily to obtain a qualification that would enhance my earning potential. However, I consider myself primarily self-taught in my field, continually learning and improving my skills independently.
+
+Languages
+
+Spanish
+
+English (Estudiando en Taller In English Workshops (Luján de Cuyo)/Nivel B1 2º año)
