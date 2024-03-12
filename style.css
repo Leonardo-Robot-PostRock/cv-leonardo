@@ -141,6 +141,7 @@ a {
 
 .container__grid {
     padding: 10px 20px;
+    z-index: 2;
 }
 
 .list {

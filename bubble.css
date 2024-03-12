@@ -1,0 +1,37 @@
+@keyframes bubble {
+    0% {
+        transform: translateY(0) rotate(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-300px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.container-image {
+    position: relative;
+    display: inline-block;
+}
+
+.bubble {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    animation: bubble 5s ease-in-out infinite;
+}
+
+.bubble:nth-child(2) {
+    width: 15px;
+    height: 15px;
+    animation-delay: 1s;
+}
+
+.bubble:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+}
