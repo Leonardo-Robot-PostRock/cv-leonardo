@@ -95,6 +95,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: end;
 }
 
 .header-info__profession {
@@ -128,7 +129,7 @@ body {
 }
 
 a {
-    color: var(--light-sea-green);
+    color: var(--light-gray);
     text-decoration: none;
 }
 
@@ -183,4 +184,33 @@ a {
 
 .section-title {
     margin: 4px 0;
+}
+
+h3,
+h4,
+h5 {
+    line-height: 1.4;
+}
+
+.container-certificates {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container-certificates__platzi {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.container-certificates>.container-certificates__page {
+    color: green;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
 }
