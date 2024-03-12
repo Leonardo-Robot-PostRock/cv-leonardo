@@ -198,10 +198,15 @@ h5 {
     align-items: center;
 }
 
-.container-certificates__platzi {
-    padding: 5px;
+.container-platzi {
     width: 30px;
     height: 30px;
+}
+
+.container-certificates__platzi {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     background-color: green;
 }
