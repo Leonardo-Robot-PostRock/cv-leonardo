@@ -150,8 +150,8 @@ a {
     padding: 0 1cm 1cm 1cm;
 }
 
-.programming-content>.section>.section-title {
-    color: var(--light-sea-green);
+.content-title>.section-title {
+    font-size: 2.2rem;
 }
 
 .container>.container__grid:nth-child(2) {
@@ -218,4 +218,19 @@ h5 {
 
 .section-subtitle {
     font-size: 1.5rem;
+}
+
+.content-title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.programming-content>.section>.content-title {
+    color: var(--light-sea-green);
+
+}
+
+.another-info>.section>.content-title {
+    color: var(--dark-cyan);
 }
