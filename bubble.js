@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (screenWidth === 375) {
-      bubble.style.bottom = '230px'; // Si la pantalla es estrecha, establece el bottom a 180px
+      bubble.style.bottom = '200px'; // Si la pantalla es estrecha, establece el bottom a 180px
     }
 
     if (screenWidth === 414) {
