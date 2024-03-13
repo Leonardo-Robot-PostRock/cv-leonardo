@@ -1,0 +1,135 @@
+@import url('./variables.css');
+
+body {
+    display: flex;
+    height: max-content;
+    justify-content: center;
+}
+
+.main-container {
+    display: block;
+    width: 21cm;
+    height: 29cm;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    padding: 1cm 1cm 1cm 1cm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header__identity {
+    position: relative;
+    justify-content: start;
+}
+
+.header-info {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-image {
+    height: 300px;
+    width: 240px;
+    z-index: 2;
+    border-radius: 35% 15% 35% 15%;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.header__name {
+    bottom: -34px;
+    height: max-content;
+    font-size: 3rem;
+    left: 0;
+    color: var(--light-gray);
+    letter-spacing: 2px;
+    position: absolute;
+    text-wrap: nowrap;
+    transform-origin: 0 0px;
+    transform: rotate(270deg);
+}
+
+.header-info {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.header-info__profession {
+    bottom: -34px;
+    height: max-content;
+    left: 0px;
+    color: var(--light-gray);
+    letter-spacing: 2px;
+    position: absolute;
+    text-wrap: nowrap;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+}
+
+.header-info__items {
+    margin-left: 20px;
+}
+
+.content {
+    gap: 15px;
+    height: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    justify-content: start;
+}
+
+.content>i {
+    font-size: 2rem;
+}
+
+a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.section>p {
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.content-title>.section-title {
+    font-size: 2.2rem;
+}
+
+.container__grid {
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list--item {
+    padding: 4px;
+}
+
+.wave {
+    display: block;
+}
+
+h3,
+h4,
+h5 {
+    line-height: 1.4;
+}

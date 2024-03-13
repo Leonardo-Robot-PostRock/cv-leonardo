@@ -8,10 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
     bubble.classList.add('bubble');
     bubble.style.width = Math.random() * 20 + 'px';
     bubble.style.height = bubble.style.width;
-    bubble.style.left = Math.random() * 100 + '%';
+    bubble.style.display = 'flex';
+    bubble.style.flexWrap = 'wrap';
+    bubble.style.right = Math.random() * 100 + '%';
     bubble.style.animationDuration = Math.random() * 6 + 5 + 's';
     bubble.style.opacity = Math.random();
-    bubble.style.bottom = -20 + 'px';
+    bubble.style.bottom = 0 + 'px';
     bubble.style.zIndex = '1';
     bubble.style.backgroundColor = 'rgba(173, 216, 230, 0.8)'; // Color cian claro
     header.appendChild(bubble);
