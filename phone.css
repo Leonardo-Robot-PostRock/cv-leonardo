@@ -131,6 +131,7 @@ p {
 
 .list {
     display: flex;
+    gap: 8px;
     flex-wrap: wrap;
     list-style: none;
 }
@@ -138,7 +139,6 @@ p {
 .list--item {
     background-color: var(--light-gray);
     color: var(--dark-cyan);
-    margin: 4px;
     padding: 4px 8px;
     font-size: 1.4rem;
     font-weight: bold;
