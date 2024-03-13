@@ -16,16 +16,18 @@ document.addEventListener('DOMContentLoaded', function () {
     bubble.style.zIndex = '1';
     bubble.style.backgroundColor = 'rgba(173, 216, 230, 0.8)'; // Color cian claro
 
-    // Captura el query de media
-    const mediaQuery = window.matchMedia('(min-width: 794px)');
+    // Captura el ancho de la pantalla
+    const screenWidth = window.innerWidth;
 
-    // Verifica si el query coincide
-    if (mediaQuery.matches) {
-      bubble.style.bottom = '-20px'; // Si coincide, establece el bottom a -20px
-    }
-
-    if (mediaQuery.matches < '794px') {
-      bubble.style.bottom = '180px'; // Si no coincide, establece el bottom a 180px
+    // Ajusta el bottom dependiendo del ancho de la pantalla
+    if (screenWidth < 794) {
+      if (screenWidth >= 360 && screenWidth <= 375) {
+        bubble.style.bottom = '240px'; // Si la pantalla es estrecha, establece el bottom a 180px
+      } else if (screenWidth >= 390 && screenWidth <= 414) {
+        bubble.style.bottom = '440px'; // Si la pantalla es estrecha, establece el bottom a 180px
+      } else {
+        bubble.style.bottom = '-20px'; // Si la pantalla es grande, establece el bottom a -20px
+      }
     }
 
     header.appendChild(bubble);
