@@ -17,7 +17,7 @@ body {
 }
 
 .main-container {
-    margin: 0 10px;
+    margin: 0 2px;
     display: flex;
     width: 100vw;
     height: max-content;
