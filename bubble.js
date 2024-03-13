@@ -11,11 +11,23 @@ document.addEventListener('DOMContentLoaded', function () {
     bubble.style.display = 'flex';
     bubble.style.flexWrap = 'wrap';
     bubble.style.right = Math.random() * 100 + '%';
-    bubble.style.animationDuration = Math.random() * 6 + 5 + 's';
+    bubble.style.animationDuration = Math.random() * 10 + 5 + 's';
     bubble.style.opacity = Math.random();
-    bubble.style.bottom = 0 + 'px';
     bubble.style.zIndex = '1';
     bubble.style.backgroundColor = 'rgba(173, 216, 230, 0.8)'; // Color cian claro
+
+    // Captura el query de media
+    const mediaQuery = window.matchMedia('(min-width: 794px)');
+
+    // Verifica si el query coincide
+    if (mediaQuery.matches) {
+      bubble.style.bottom = '-20px'; // Si coincide, establece el bottom a -20px
+    }
+
+    if (mediaQuery.matches < '794px') {
+      bubble.style.bottom = '180px'; // Si no coincide, establece el bottom a 180px
+    }
+
     header.appendChild(bubble);
 
     // Elimina la burbuja después de la animación
