@@ -93,6 +93,10 @@ p {
     grid-template-columns: 1fr;
 }
 
+.container__grid {
+    z-index: 5;
+}
+
 .container>.container__grid:nth-child(1) {
     background-color: var(--dark-cyan);
     color: var(--light-gray);

@@ -20,14 +20,25 @@ document.addEventListener('DOMContentLoaded', function () {
     const screenWidth = window.innerWidth;
 
     // Ajusta el bottom dependiendo del ancho de la pantalla
-    if (screenWidth < 794) {
-      if (screenWidth >= 360 && screenWidth <= 375) {
-        bubble.style.bottom = '240px'; // Si la pantalla es estrecha, establece el bottom a 180px
-      } else if (screenWidth >= 390 && screenWidth <= 414) {
-        bubble.style.bottom = '440px'; // Si la pantalla es estrecha, establece el bottom a 180px
-      } else {
-        bubble.style.bottom = '-20px'; // Si la pantalla es grande, establece el bottom a -20px
-      }
+
+    if (screenWidth >= 794) {
+      bubble.style.bottom = '-20px'; // Si la pantalla es grande, establece el bottom a -20px
+    }
+
+    if (screenWidth === 360) {
+      bubble.style.bottom = '290px';
+    }
+
+    if (screenWidth === 375) {
+      bubble.style.bottom = '220px'; // Si la pantalla es estrecha, establece el bottom a 180px
+    }
+
+    if (screenWidth === 414) {
+      bubble.style.bottom = '430px'; // Si la pantalla es estrecha, establece el bottom a 180px
+    }
+
+    if (screenWidth === 390) {
+      bubble.style.bottom = '400px'; // Si la pantalla es estrecha, establece el bottom a 180px
     }
 
     header.appendChild(bubble);
