@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const header = document.querySelector('.header');
-  const numBubbles = 80;
+  const numBubbles = 100;
 
   // Función para crear una burbuja
   function createBubble() {
@@ -16,14 +16,30 @@ document.addEventListener('DOMContentLoaded', function () {
     bubble.style.zIndex = '1';
     bubble.style.backgroundColor = 'rgba(173, 216, 230, 0.8)'; // Color cian claro
 
-    // Captura el ancho y alto de la pantalla
+    // Captura el ancho de la pantalla
     const screenWidth = window.innerWidth;
-    const screenHeight = window.innerHeight;
 
-    // Ajusta el bottom dependiendo del tamaño de la pantalla
-    const bottomPosition =
-      screenHeight * 0.1 + Math.random() * (screenHeight * 0.8);
-    bubble.style.bottom = bottomPosition + 'px';
+    // Ajusta el bottom dependiendo del ancho de la pantalla
+
+    if (screenWidth >= 794) {
+      bubble.style.bottom = '-10px'; // Si la pantalla es grande, establece el bottom a -20px
+    }
+
+    if (screenWidth === 360) {
+      bubble.style.bottom = '290px';
+    }
+
+    if (screenWidth === 375) {
+      bubble.style.bottom = '230px'; // Si la pantalla es estrecha, establece el bottom a 180px
+    }
+
+    if (screenWidth === 414) {
+      bubble.style.bottom = '430px'; // Si la pantalla es estrecha, establece el bottom a 180px
+    }
+
+    if (screenWidth === 390) {
+      bubble.style.bottom = '400px'; // Si la pantalla es estrecha, establece el bottom a 180px
+    }
 
     header.appendChild(bubble);
 
