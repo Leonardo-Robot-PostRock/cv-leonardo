@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     bubble.style.height = bubble.style.width;
     bubble.style.display = 'flex';
     bubble.style.flexWrap = 'wrap';
-    bubble.style.right = Math.random() * 100 + '%';
+    bubble.style.right = Math.random() * header.clientWidth + 'px'; // Ajuste al ancho del contenedor
     bubble.style.animationDuration = Math.random() * 10 + 5 + 's';
     bubble.style.opacity = Math.random();
     bubble.style.zIndex = '1';
