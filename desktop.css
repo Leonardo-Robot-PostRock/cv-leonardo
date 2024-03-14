@@ -3,11 +3,11 @@
 body {
     display: flex;
     height: max-content;
+    background-color: var(--light-blue);
     justify-content: center;
 }
 
 .main-container {
-    border: 1px solid var(--light-gray);
     padding: 0;
     display: flex;
     justify-content: center;
