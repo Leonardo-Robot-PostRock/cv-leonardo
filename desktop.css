@@ -39,8 +39,8 @@ body {
 }
 
 .container-image {
-    height: 280px;
-    width: 220px;
+    height: 296px;
+    width: 230px;
     z-index: 2;
     border-radius: 35% 15% 35% 15%;
     margin-bottom: 0;
@@ -153,10 +153,4 @@ a {
 
 .wave {
     display: block;
-}
-
-h3,
-h4,
-h5 {
-    line-height: 1.4;
 }
