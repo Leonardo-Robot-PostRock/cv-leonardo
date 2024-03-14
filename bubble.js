@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const header = document.querySelector('.header');
+  const header = document.querySelector('.effect-bubble');
   const numBubbles = 100;
 
   // Función para crear una burbuja
