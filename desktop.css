@@ -102,6 +102,10 @@ body {
     font-size: 2rem;
 }
 
+.first-content {
+    margin-top: 0;
+}
+
 a {
     color: var(--light-gray)0 text-decoration: none;
 }
@@ -113,11 +117,11 @@ a {
 }
 
 .container>.container__grid:nth-child(1) {
-    padding: 0.95cm 1cm;
+    padding: 1.12cm 1cm;
 }
 
 .container>.container__grid:nth-child(2) {
-    padding: 0.95cm 1cm;
+    padding: 1.12cm 1cm;
 }
 
 .section>p {

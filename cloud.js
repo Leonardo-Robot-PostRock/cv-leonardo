@@ -16,7 +16,7 @@ function generateWaves() {
   const waveContainer = document.querySelector('.wave-container');
 
   const containerHeight = waveContainer.clientHeight;
-  const numWaves = Math.ceil(containerHeight / 20.6); // Calcula el número de ondas según la altura del contenedor
+  const numWaves = Math.ceil(containerHeight / 20.8); // Calcula el número de ondas según la altura del contenedor
 
   for (let i = 0; i < numWaves; i++) {
     const size = `${Math.random() * 20 + 13}px`; // Tamaño aleatorio entre 10px y 30px
