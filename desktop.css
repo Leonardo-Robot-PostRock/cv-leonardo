@@ -93,7 +93,7 @@ body {
 }
 
 .content-title {
-    margin: 10px 0;
+    margin: 15px 0 5px 0px;
 }
 
 .content>i {
@@ -101,8 +101,7 @@ body {
 }
 
 a {
-    color: var(--light-gray);
-    text-decoration: none;
+    color: var(--light-gray)0 text-decoration: none;
 }
 
 .container {
