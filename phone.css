@@ -100,7 +100,7 @@ p {
 }
 
 .container>.container__grid:nth-child(1) {
-    padding: 0.5cm 1cm 1cm 1cm;
+    padding: 0.5cm 0.5cm 0.5cm 0.5cm;
     background-color: var(--dark-cyan);
     color: var(--light-gray);
 }
@@ -110,7 +110,7 @@ p {
 }
 
 .container>.container__grid:nth-child(2) {
-    padding: 0.5cm 1cm 1cm 1cm;
+    padding: 0.5cm 0.5cm 0.5cm 0.5cm;
     background-color: var(--light-gray);
     color: var(--dark-cyan);
     z-index: 3;
@@ -121,7 +121,8 @@ p {
 }
 
 .section-subtitle {
-    font-size: 1.8rem;
+    margin: 10px 0 4px 0;
+    font-size: 1.5rem;
 }
 
 .list {
