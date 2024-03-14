@@ -18,6 +18,7 @@ body {
 
 .header {
     width: 100%;
+    padding: 0.5cm 1cm;
 }
 
 .effect-bubble {
@@ -111,11 +112,11 @@ a {
 }
 
 .container>.container__grid:nth-child(1) {
-    padding: 0.46cm 1cm;
+    padding: 0.27cm 1cm;
 }
 
 .container>.container__grid:nth-child(2) {
-    padding: 0.46cm 1cm;
+    padding: 0.27cm 1cm;
 }
 
 .section>p {
