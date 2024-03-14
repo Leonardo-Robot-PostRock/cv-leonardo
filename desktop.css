@@ -7,17 +7,23 @@ body {
 }
 
 .main-container {
-    margin: 0 2px;
     border: 1px solid var(--light-gray);
-    display: block;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 21cm;
-    height: 29cm;
+    height: 29.7cm;
+}
+
+.header {
+    width: 100%;
 }
 
 .effect-bubble {
     position: relative;
     text-align: center;
-    padding: 1cm 1cm 1cm 1cm;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -33,18 +39,17 @@ body {
 }
 
 .container-image {
-    height: 300px;
-    width: 240px;
+    height: 280px;
+    width: 220px;
     z-index: 2;
     border-radius: 35% 15% 35% 15%;
-    margin-left: 20px;
     margin-bottom: 0;
 }
 
 .header__name {
     bottom: -34px;
     height: max-content;
-    font-size: 3rem;
+    font-size: 2.6rem;
     left: 0;
     color: var(--light-gray);
     letter-spacing: 2px;
@@ -64,6 +69,7 @@ body {
 
 .header-info__profession {
     bottom: -34px;
+    font-size: 2.6rem;
     height: max-content;
     left: 0px;
     color: var(--light-gray);
@@ -87,6 +93,10 @@ body {
     justify-content: start;
 }
 
+.content-title {
+    margin: 10px 0;
+}
+
 .content>i {
     font-size: 2rem;
 }
@@ -100,6 +110,14 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
+}
+
+.container>.container__grid:nth-child(1) {
+    padding: 0.46cm 1cm;
+}
+
+.container>.container__grid:nth-child(2) {
+    padding: 0.46cm 1cm;
 }
 
 .section>p {
@@ -124,6 +142,7 @@ a {
 
 .list--item {
     padding: 4px;
+    font-size: 1.5rem;
 }
 
 .wave {
