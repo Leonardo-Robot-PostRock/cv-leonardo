@@ -69,6 +69,7 @@ body {
 
 .header-info__profession {
     bottom: -34px;
+    margin: 0;
     font-size: 2.6rem;
     height: max-content;
     left: 0px;

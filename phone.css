@@ -39,6 +39,10 @@ body {
     align-items: center;
 }
 
+.header-info__profession {
+    margin: 10px 0 5px 0;
+}
+
 .container-image {
     border: 10px var(--light-blue) solid;
     height: 200px;
