@@ -14,10 +14,10 @@ html {
 
 body {
     font-size: 1.5rem;
+    background-color: var(--dark-cyan);
 }
 
 .main-container {
-    margin: auto 2px;
     display: flex;
     width: 100vw;
     height: max-content;
