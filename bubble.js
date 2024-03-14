@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Captura el ancho de la pantalla
     const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
 
     // Ajusta el bottom dependiendo del ancho de la pantalla
 
@@ -27,6 +28,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (screenWidth === 360) {
       bubble.style.bottom = '290px';
+    }
+
+    if (screenWidth === 360 && screenHeight === 640) {
+      bubble.style.bottom = '220px';
     }
 
     if (screenWidth === 375) {

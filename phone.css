@@ -29,7 +29,6 @@ body {
 .header {
     background-color: var(--dark-cyan);
     color: var(--light-gray);
-    padding: 0.5cm;
     text-align: center;
 }
 
