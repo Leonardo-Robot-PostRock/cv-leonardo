@@ -113,11 +113,11 @@ a {
 }
 
 .container>.container__grid:nth-child(1) {
-    padding: 0.37cm 1cm;
+    padding: 0.95cm 1cm;
 }
 
 .container>.container__grid:nth-child(2) {
-    padding: 0.37cm 1cm;
+    padding: 0.95cm 1cm;
 }
 
 .section>p {
@@ -126,7 +126,11 @@ a {
 }
 
 .content-title>.section-title {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
+}
+
+.section-item>.section-subtitle {
+    font-size: 1.6rem;
 }
 
 .container__grid {
@@ -137,12 +141,14 @@ a {
 .list {
     display: flex;
     flex-wrap: wrap;
+    gap: 9px;
     list-style: none;
 }
 
 .list--item {
     padding: 4px;
-    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
 }
 
 .wave {
